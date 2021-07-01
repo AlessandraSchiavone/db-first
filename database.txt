@@ -1,0 +1,17 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+Nome tabella: auto
+
+id - intero - MEDIUMINT - PRIMARY KEY- AUTO_INCREMENT
+targa - stringa - VARCHAR(7) - NOTNULL - UNIQUE
+marca - stringa - VARCHAR(100) - NOTNULL
+modello - stringa - VARCHAR(150) - NOTNULL
+immatricolazioe - data - DATE
+chilometri - intero - MEDIUMINT
+nr_porte - intero - TINYINT 
+disponibile - boolean - TINYINT - DEFAULT 1
+alimentazione - stringa - VARCHAR(50) - NOTNULL
+cilindrata - intero - MEDIUMINT - NOTNULL
+colore - stringa - VARCHAR(70)
+prezzo - float - FLOAT(8,2)
